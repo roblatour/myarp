@@ -1,4 +1,4 @@
-# myarp
+# MyArp
 
 Am alternative to Microsoft's arp command-line utility
 
