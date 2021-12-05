@@ -1,6 +1,6 @@
 # myarp
 
-alternative to Microsoft's arp command line utility
+Am alternative to Microsoft's arp command-line utility
 
 Copyright 2021, Rob Latour, Licensed under MIT
 
