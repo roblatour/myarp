@@ -548,7 +548,7 @@ Module Module1
         Console.ForegroundColor = ConsoleColor.Gray
         Console.WriteLine("")
         Console.WriteLine("Application:  MyArp version " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor)
-        Console.WriteLine("Copyright:    2021 Rob Latour")
+        Console.WriteLine("Copyright:    2024 Rob Latour")
         Console.WriteLine("License:      MIT - https://www.rlatour.com/myarp/license.txt")
         Console.WriteLine("Website:      www.rlatour.com/myarp")
 
@@ -1276,6 +1276,8 @@ Module Module1
 
             Next
 
+            System.Threading.Thread.Sleep(500) ' provide time to finish writing entries
+
         End If
 
         If RecordsFound Then
@@ -1320,6 +1322,8 @@ Module Module1
                 End If
 
             Next
+
+            System.Threading.Thread.Sleep(500) ' provide time to finish writing entries
 
         End If
 
