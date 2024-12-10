@@ -76,7 +76,7 @@ MyArp /? /ADD \[Physical Address\] (Description) /DEL \[Physical Address\] /C /D
 
 **Here is how you can use MyArp from a desktop icon**
 
-While MyArp is a command line program, it can still be run by via a desktop icon.  Here is how you can set the program up as a desktop icon (please note the arrow points to where the command line parameters are added):
+While MyArp is a command line program, it can still be run by via a desktop icon. Here is how you can set the program up as a desktop icon (please note the arrow points to where the command line parameters are added):
 
 ![MyArp desktop icon](/images/desktopicon.jpg)
 
@@ -84,7 +84,7 @@ While MyArp is a command line program, it can still be run by via a desktop icon
 
 You are welcome to download and use MyArp for free on as many computers as you would like.
 
-A downloadable signed executable version of the program is available from [here](https://github.com/roblatour/myarp/releases/download/v1.2.0.0/myarpsetup.exe).
+A downloadable signed executable version of the program is available from [here](https://github.com/roblatour/myarp/releases/download/v1.3.0.0/myarpsetup.exe).
 
 * * *
  ## Supporting MyArp
