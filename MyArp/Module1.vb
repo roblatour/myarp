@@ -1,4 +1,4 @@
-﻿' Copyright Rob Latour, 2021
+﻿' Copyright Rob Latour, 2024
 ' https://rlatour.com/myarp
 
 Imports System.Net
@@ -91,7 +91,7 @@ Module Module1
         'CommandLineOverrideForTesting = "/ADD 01:02:03:04:05:06 This is another test "
         'CommandLineOverrideForTesting = "/ADD 7C:DD:90:A0:AE:E7 Raspberry PI Wireless"
         'CommandLineOverrideForTesting = "/DEL 02:0F:B5:43:0D:F6"
-        CommandLineOverrideForTesting = "/? /P"
+        'CommandLineOverrideForTesting = "/? /P"
         'CommandLineOverrideForTesting = "/NP /NRD /P"
         'CommandLineOverrideForTesting = "/NP /NRS /P"
         'CommandLineOverrideForTesting = "/NRA /NRI /P"   ' nothing to report
@@ -100,7 +100,7 @@ Module Module1
         'CommandLineOverrideForTesting = " /HYPERV /P"
         'CommandLineOverrideForTesting = "/Q"
         'CommandLineOverrideForTesting = "/R /HYPERV /P"
-        'CommandLineOverrideForTesting = "/P"
+        CommandLineOverrideForTesting = "/P"
 
 #End If
 
@@ -549,8 +549,8 @@ Module Module1
         Console.WriteLine("")
         Console.WriteLine("Application:  MyArp version " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor)
         Console.WriteLine("Copyright:    2024 Rob Latour")
-        Console.WriteLine("License:      MIT - https://www.rlatour.com/myarp/license.txt")
-        Console.WriteLine("Website:      www.rlatour.com/myarp")
+        Console.WriteLine("License:      MIT - https://github.com/roblatour/myarp/blob/main/LICENSE")
+        Console.WriteLine("Website:      https://github.com/roblatour/myarp")
 
         Console.WriteLine("")
         Console.WriteLine("Loading from: " & Environment.CurrentDirectory)

@@ -1,8 +1,8 @@
-# MyArp (version 1.2, released December 5, 2021)
+# MyArp (version 1.3, released December 10, 2024)
 
 MyArp is a free open source alternative command line program to Microsoft's Arp program. 
 
-MyArp is licensed under the [MIT license](https://rlatour.com/myarp/license.txt).
+MyArp is licensed under the [MIT license](https://github.com/roblatour/myarp/blob/main/LICENSE).
 
 **Some background:**
 
@@ -26,7 +26,7 @@ Below are two screenshots, the one on the taken from Microsoft's ARP, and the ot
 
 **MyArp**
 
-![Microsoft's Arp]/images/myarp.jpg)
+![Microsoft's Arp](/images/myarp.jpg)
 
 **MyArp provides the following features over ARP:**
 
